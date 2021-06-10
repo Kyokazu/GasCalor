@@ -1,0 +1,90 @@
+<div class="row">
+    <div class="col-lg-12">
+        <div class="tabs-container">
+            <div class="ibox-title">
+                <h5 style="color:#FFFFFF"> Creación de lista de Verificación </h5>
+            </div>
+            <ul class="nav nav-tabs" role="tablist">
+                <li><a class="nav-link active" data-toggle="tab" href="#tab-1">Nombre de la lista</a></li>
+                <li><a class="nav-link" data-toggle="tab" href="#tab-2">Seleccione los temas</a></li>
+                <li><a class="nav-link" data-toggle="tab" href="#tab-3">Seleccione las labores</a></li>
+
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" id="tab-1" class="tab-pane active">
+                    <div class="panel-body">
+
+                        <div class="panel panel-body">
+                            <br>
+                            <div class="form-group row">
+                                <label for="formGroupExampleInput" class="col-sm-4 col-form-label"><b>Digite el nombre de la lista de verificación</b> </label>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" name="txtEstado" id="txtEstado">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div role="tabpanel" id="tab-2" class="tab-pane">
+                    <div class="panel-body">
+
+                        <div class="panel panel-body">
+
+                            <br>
+
+                            <div class="form-group row">
+                                <label for="formGroupExampleInput" class="col-sm-4 col-form-label"><b>Seleccione que temas se incluirán en la lista</b> </label>
+                                <div class="col-sm-8">
+                                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                    <label for="vehicle1"> Salud del técnico</label><br>
+                                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                                    <label for="vehicle2"> Implementos de seguridad</label><br>
+                                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                    <label for="vehicle3"> Estado Implementos de Seguridad</label><br><br>
+                                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                    <label for="vehicle3"> Implementos a usar</label><br><br>
+                                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                    <label for="vehicle3"> Implementos Usados</label><br><br>
+                                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                    <label for="vehicle3"> Notificación a autoridades</label><br><br>
+                                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                    <label for="vehicle3"> Hallazgos</label><br><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" id="tab-3" class="tab-pane">
+                    <div class="panel-body">
+
+                        <div class="panel panel-body">
+
+                            <br>
+
+                            <div class="form-group row">
+                                <label for="formGroupExampleInput" class="col-sm-4 col-form-label"><b>Seleccione que labores se incluirán en la lista</b> </label>
+                                <div class="col-sm-8">
+                                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                    <label for="vehicle1"> Mantenimiento de tubería</label><br>
+                                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                                    <label for="vehicle2"> Mantenimiento de tanque</label><br>
+                                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                    <label for="vehicle3"> Revisión Fuga</label><br><br>
+                                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                    <label for="vehicle3"> Instalación de tubería</label><br><br>
+                                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                    <label for="vehicle3"> Instalación de tanque</label><br><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <button type="button" style="background-color: #D14844" class="btn btn-primary" id="btnUserReg" onclick="crearListaMensaje()">Crear Lista de Verificación</button>
+        </div>
+    </div>
+
+</div>
+
+<script type="text/javascript" src="../js/FO_IN_06/FO_IN_06.js"></script>

@@ -1,0 +1,110 @@
+<div class="row">
+    <div class="col-lg-12">
+        <div class="tabs-container">
+            <div class="ibox-title">
+                <h5 style="color:#FFFFFF"> Edición de temas </h5>
+            </div>
+            <ul class="nav nav-tabs" role="tablist">
+                <li><a class="nav-link active" data-toggle="tab" href="#tab-1">Nombre del tema</a></li>
+                <li><a class="nav-link" data-toggle="tab" href="#tab-2">Seleccione las preguntas abiertas a incluir</a></li>
+                <li><a class="nav-link" data-toggle="tab" href="#tab-3">Seleccione las preguntas cerradas a incluir</a></li>
+
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" id="tab-1" class="tab-pane active">
+                    <div class="panel-body">
+
+                        <div class="panel panel-body">
+                            <br>
+                            <div class="form-group">
+                                <label for="formGroupExampleInput" class="col-sm-4 col-form-label"><b>Seleccione el tema</b></label>
+                                <select class="form-control"  name ="combo_condicion" id="combo_condicion" >
+                                    <option value=""></option>
+                                    <option value="Ins-001">Implementos de seguridad</option>
+                                    <option value="Man-002">Salud del técnico</option>
+                                    <option value="Rev-003">Estado Implementos de Seguridad</option>
+                                    <option value="Gen-004">Hallazgos</option>
+                                </select>
+                            </div> 
+                            <br>
+                            <div class="col-sm-8">
+                                <label for="formGroupExampleInput" class="col-sm-4 col-form-label"><b>¿Obligatorio?</b> </label>
+                                <br>
+                                <input type="radio" id="male" name="312321" value="male">
+                                <label for="male">Si</label><br>
+                                <input type="radio" id="female" name="312321" value="female">
+                                <label for="female">No</label><br>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div role="tabpanel" id="tab-2" class="tab-pane">
+                    <div class="panel-body">
+
+                        <div class="panel panel-body">
+
+                            <br>
+
+                            <div class="form-group row">
+                                <label for="formGroupExampleInput" class="col-sm-4 col-form-label"><b>Seleccione las preguntas abiertas</b> </label>
+                                <div class="col-sm-8">
+                                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked>
+                                    <label for="vehicle1"> ¿Informó a las autoridades un posible riesgo de fuga? - 2 </label><br>
+                                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                                    <label for="vehicle2"> ¿Sus implementos de seguridad presentaron alguna falla durante el desarrollo de la labor? - 2</label><br>
+                                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                    <label for="vehicle3"> Detalle el estado de la válvula a la cual se le realizó mantenimiento - 100 </label><br><br>
+                                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" checked> 
+                                    <label for="vehicle3"> Pregunta 4 - 20</label><br><br>
+                                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                    <label for="vehicle3"> Pregunta 5 -30</label><br><br>
+                                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" checked>
+                                    <label for="vehicle3"> Pregunta 6 - 40</label><br><br>
+                                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                    <label for="vehicle3"> Pregunta 7 - 50</label><br><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" id="tab-3" class="tab-pane">
+                    <div class="panel-body">
+
+                        <div class="panel panel-body">
+
+                            <br>
+
+                            <div class="form-group row">
+                                <label for="formGroupExampleInput" class="col-sm-4 col-form-label"><b>Seleccione que temas se incluirán en la lista</b> </label>
+                                <div class="col-sm-8">
+                                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked>
+                                    <label for="vehicle1"> Seleccione los implementos de seguridad usados - 7</label><br>
+                                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                                    <label for="vehicle2"> Indique el estado de la tubería revisada  - 4</label><br>
+                                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                    <label for="vehicle3"> Indique el estado del tanque - 4 </label><br><br>
+                                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" checked>
+                                    <label for="vehicle3"> Indique el estado de satisfacción del cliente con el servicio - 5</label><br><br>
+                                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                    <label for="vehicle3"> Pregunta cerrada 5 - 4</label><br><br>
+                                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" checked>
+                                    <label for="vehicle3"> Pregunta cerrada 6 - 2</label><br><br>
+                                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                    <label for="vehicle3"> Pregunta cerrada 7 - 3</label><br><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> 
+            <button type="button" style="background-color: #D14844" class="btn btn-primary" id="btnUserReg" onclick="editarTemaMensaje()">Editar Tema</button>
+
+        </div>
+    </div>
+
+</div>
+
+<script type="text/javascript" src="../js/FO_IN_06/FO_IN_06.js"></script>

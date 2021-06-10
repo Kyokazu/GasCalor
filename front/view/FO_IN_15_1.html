@@ -1,0 +1,81 @@
+<div class="row">
+    <div class="col-lg-12">
+        <div class="tabs-container">
+            <div class="ibox-title">
+                <h5 style="color:#FFFFFF"> Diligenciamiento de lista de verificación posterior a ejecutar la orden </h5>
+            </div>
+            <ul class="nav nav-tabs" role="tablist">
+                <li><a class="nav-link active" data-toggle="tab" href="#tab-1">Detalles de las órdenes </a></li>
+
+
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" id="tab-1" class="tab-pane active">
+                    <div class="panel-body">
+
+                        <div class="panel panel-body">
+
+                            <br>
+                            <div class="form-group">
+                                <label for="formGroupExampleInput" class="col-sm-4 col-form-label"><b>Seleccione la orden</b></label>
+                                <select class="form-control" onchange="cargar_DatosInfos2(this.value); "  name ="combo_condicion" id="combo_condicion" >
+                                        <option value=""></option>
+                                    <option value="Ins-001">Ins-001 -Instalación de Tanque de Gas </option>
+                                    <option value="Man-002">Man-002 - Mantenimiento de tubería</option>
+                                    <option value="Rev-003">Rev-003 - Revisión de Fuga</option>
+                                    <option value="Gen-004">Gen-004 - Reemplazo de válvulas</option>
+                                    <option value="Ins-002">Ins-002 - Instalacion de tubería</option>
+                                    <option value="Ins-003">Ins-003 - Instalación válvulas de medición</option>
+                                </select>
+
+                            </div> 
+
+                            <br>
+
+                            <div class="form-group row">
+                                <label for="formGroupExampleInput" class="col-sm-4 col-form-label"><b>Número de Orden</b> </label>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" name="txtNumero" id="txtNumero" disabled>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="formGroupExampleInput" class="col-sm-4 col-form-label"> <b>Labor a desarrollar:</b> </label>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" name="txtLabor" id="txtLabor" disabled >
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="formGroupExampleInput" class="col-sm-4 col-form-label"> <b>Direccción de la labor</b> </label>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" name="txtDireccion" id="txtDireccion" disabled >
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="formGroupExampleInput" class="col-sm-4 col-form-label"> <b>Estado de diligenciamiento de Lista</b> </label>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" name="txtEstado" id="txtEstado" disabled >
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+
+
+                    <button type="button" style="background-color: #D14844" class="btn btn-primary" id="btnUserReg" onclick="listaPosterior()">Diligenciar Listas</button>
+
+                </div>   
+
+
+            </div>      
+
+        </div>
+
+    </div>
+
+
+</div>
+<script type="text/javascript" src="../js/FO_IN_06/FO_IN_06.js"></script>
